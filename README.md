@@ -14,6 +14,19 @@ Criar uma base simples e prática de queries que podem ser adaptadas para **B2B 
 
 ---
 
+## 🔧 Convenções
+- Ajuste os nomes de tabelas/campos conforme seu DW/CRM:
+  - `events` (eventos do produto/marketing)
+  - `accounts` (contas/clientes)
+  - `subscriptions` (assinaturas/planos)
+  - `leads` (contatos/leads)
+- Datas em UTC.  
+- Onde houver `-- TODO:` personalize para seu caso.
+
+💡 Este repositório complementa o [CRM Playbook](https://github.com/Yukavazoko/crm-playbook).
+
+---
+
 ### 📂 Estrutura do Repositório
 ```text
 sql-snippets/
